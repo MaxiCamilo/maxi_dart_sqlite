@@ -1,0 +1,22 @@
+name: maxi_dart_sqlite
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+publish_to: none
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.13.2
+
+# Add regular dependencies here.
+dependencies:
+  
+  
+  maxi_dart_framework:
+    path: ../maxi_dart_framework
+  maxi_dart_sql:
+    path: ../maxi_dart_sql
+  sqlite3: ^3.7.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6
